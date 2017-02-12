@@ -1,0 +1,29 @@
+.avatar-product {
+  margin: -15% 5% 1% 5%;
+  background-image:  url('../assets/images/product-avatar.jpg');
+}
+
+.product-hero-image {
+  margin: 0;
+  height: 24rem;
+  background: url('../assets/images/product.jpg') center center/cover no-repeat;
+}
+
+.product-rating {
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+
+.star-solid {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background-image: url('../assets/svg/star-solid.svg');
+}
+
+.star-contour {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background-image: url('../assets/svg/star-contour.svg');
+}
