@@ -1,0 +1,20 @@
+.splash-image {
+  position: absolute;
+  bottom: 0;
+  height: 33rem; 
+  width: 100%;
+  background: url('../assets/images/dog.png') bottom center no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2) {
+  .splash-image { 
+    background-image: url('../assets/images/dog@2x.png')
+  }
+}
+
+@media (min-device-pixel-ratio: 3) {
+  .splash-image {
+    background-image: url('../assets/images/dog@3x.png')
+  }
+
+}
