@@ -1,3 +1,5 @@
+
+
 /* typography */
 
 html, .root {
@@ -99,14 +101,15 @@ body {
   margin-top: 20%;
   height: 22rem;
   background: url('../assets/images/logo.png') center center no-repeat;
-	background-size: contain;	
 }
 
 .pfa-logo-small {
-	background: url('../assets/images/logo.png') center center no-repeat;
-	background-size: contain;
-	height: 14rem;
-	margin-bottom: 3rem;
+    background: url(../assets/images/logo.png) center center no-repeat;
+    background-size: contain;
+    display: block;
+    height: 14rem;
+    width: 18rem;
+    margin: 0 auto 3rem;
 }
 
 /* end of bg, avatars */

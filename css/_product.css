@@ -1,0 +1,10 @@
+.avatar-product {
+  margin: -15% 1% 1% 1%;
+  background-image:  url('../assets/images/product-avatar.jpg');
+}
+
+.product-hero-image {
+  margin: 0;
+  height: 24rem;
+  background: url('../assets/images/product.jpg') center center/cover no-repeat;
+}
