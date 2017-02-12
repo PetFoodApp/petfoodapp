@@ -105,6 +105,10 @@ header{
 }
 footer{
 	background-color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 footer .flex-item:nth-child(1){
 	margin-top: 1.5rem;
