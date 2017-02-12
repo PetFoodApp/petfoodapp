@@ -6,6 +6,7 @@ header{
 	margin: 3rem 0;
 }
 .back{
+    margin-left: 1.5rem;
     display: -ms-inline-flexbox;
     display: -webkit-inline-flex;
     display: inline-flex;
@@ -35,6 +36,12 @@ header{
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
+}
+.user-menu{
+    margin-right: 1.5rem;
+}
+.user-menu a:first-child{
+    margin-right: 1rem;
 }
 /*menu flex*/
 .flex-container {

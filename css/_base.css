@@ -24,6 +24,7 @@ h2, .h2 {
 	font-size: 1.3rem;
 	font-weight: 700;
 	line-height: 1.692;
+    text-transform: uppercase;
 }
 
 p, ul, ol, pre, table, blockquote {
