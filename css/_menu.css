@@ -1,3 +1,6 @@
+header img, footer img{
+	height: 4.8rem;
+}
 /*menu top*/
 header{
 	margin-top: 7rem;
