@@ -69,7 +69,7 @@ input{
 /* end of typography */
 
 
-/* bg, avatars, products */
+/* bg, avatars */
 
 body { 
   background: #FDD734 url('../assets/images/background-app.jpg') no-repeat;  
@@ -95,26 +95,13 @@ body {
   background-image: url('../assets/images/misiel_hero.jpg');
 }
 
-.avatar-product {
-  margin: -15% 1% 1% 1%;
-  background-image:  url('../assets/images/product-avatar.jpg');
+.pfa-logo-normal {
+  margin-top: 20%;
+  height: 22rem;
+  background: url('../assets/images/logo.png') center center no-repeat;
 }
 
-.product-hero-image {
-  margin: 0;
-  height: 24rem;
-  background: url('../assets/images/product.jpg') center center/cover no-repeat;
-}
-
-.splash-image {
-  position: absolute;
-  bottom: 0;
-  height: 33rem; 
-  width: 100%;
-  background: url('../assets/images/dog.png') bottom center no-repeat;
-}
-
-/* end of bg, avatars, products */
+/* end of bg, avatars */
 
 
 /* buttons & inputs */
@@ -181,8 +168,8 @@ input:-ms-input-placeholder  /* IE 10+ */ {
     background: url('../assets/images/background-app@2x.jpg')  no-repeat;  
   }
 
-  .splash-image {
-    background: url('../assets/images/dog@2x.png') center center no-repeat;
+  .pfa-logo-normal {
+    background-image: url('../assets/images/logo@2x.png')
   }
 }
 
@@ -192,7 +179,7 @@ input:-ms-input-placeholder  /* IE 10+ */ {
     background: url('../assets/images/background-app@3x.jpg') no-repeat; 
   }
 
-  .splash-image {
-    background: url('../images/dog@3x.png') center center no-repeat;
+	.pfa-logo-normal {
+    background-image: url('../assets/images/logo@2x.png')
   }
 }
