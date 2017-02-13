@@ -24,14 +24,14 @@ h2, .h2 {
 	font-size: 1.3rem;
 	font-weight: 700;
 	line-height: 1.692;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 h3, .h3 {
 	font-size: 1rem;
 	font-weight: 700;
 	line-height: 1.4;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 p, ul, ol, pre, table, blockquote {
@@ -96,7 +96,7 @@ body {
 }
 
 .pfa-logo-normal {
-  margin-top: 20%;
+  margin-top: 8rem;
   height: 22rem;
   background: url('../assets/images/logo.png') center center no-repeat;
 	background-size: contain;	
@@ -116,13 +116,13 @@ body {
 
 .btn {
 	width: 80%;
-	color: white;
 	border: none;
 	border-radius: 50px;
 	margin: 0 auto;
-	color:  #ffffff;
+	color:  #fff;
 	font-size: 1.6rem;
 	font-weight: 700;
+	font-family: inherit;
 	line-height: 4rem;
 	text-transform: uppercase;
 	text-align: center;
@@ -137,7 +137,6 @@ body {
 .btn-fb {
 	font-size: 1.2rem;
 	font-weight: 700;
-	line-height: 1.667;
 	background: #3b5998 url('../assets/svg/fb-logo.svg') 10% center no-repeat / 30px 30px;
 }
 
@@ -160,9 +159,9 @@ input::-webkit-input-placeholder, /* Chrome/Opera/Safari */
 input::-moz-placeholder, /* Firefox 19+ */
 input:-moz-placeholder,
 input:-ms-input-placeholder  /* IE 10+ */ { 
+	font-family: inherit;
 	text-align: center;
-	text-transform: uppercase;
-    color: #90a4ae;
+	color: #90a4ae;
 }
 
 /* end of buttons & inputs */
