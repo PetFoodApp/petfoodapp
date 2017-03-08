@@ -15,28 +15,26 @@ body, .article {
 }
 
 h1, .h1 {
-	font-size: 7.892rem;
-	line-height: 0.405;
-	padding-bottom: 2.3rem;
+	font-size: 3.6rem;
+	line-height: 4.5rem;
 }
 
 h2, .h2 {
 	font-size: 1.3rem;
 	font-weight: 700;
-	line-height: 1.692;
+	line-height: 1.7rem;
 	text-transform: uppercase;
 }
 
 h3, .h3 {
 	font-size: 1rem;
 	font-weight: 700;
-	line-height: 1.4;
+	line-height: 1.4rem;
 	text-transform: uppercase;
 }
 
 p, ul, ol, pre, table, blockquote {
-	padding-top: 0rem;
-	padding-bottom: 2.3rem;
+	padding: 2rem 0;
 }
 
 ul ul, ol ol, ul ol, ol ul {
