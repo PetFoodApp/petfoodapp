@@ -1,0 +1,58 @@
+.search-results {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+.search-results input {
+  width: 100%
+}
+
+.search-results h3 {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.search-record {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 2.5rem;
+}
+
+.search-record-avatar {
+  height: 10rem;
+  width: 15rem;
+  border: 1px solid #FDD734;
+  background-image: url('../assets/images/product.jpg');
+}
+
+.search-record-avatar .btn {
+  width: 8rem;
+  margin-top: 8.5rem;
+  margin-left: 7rem;
+}
+
+.search-record-details {
+  padding: 1.1rem 1.3rem;
+}
+
+.search-record-details>:nth-child(n) {
+  margin-bottom: .8rem;
+}
+
+.search-record-details .search-record-category{
+  text-decoration: underline;
+  display: block;
+}
+
+.search-record-details .search-record-name{
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+.search-record-rating {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
