@@ -33,14 +33,9 @@ h3, .h3 {
 	text-transform: uppercase;
 }
 
-ul, ol, pre, table, blockquote {
-	padding: 2rem 0;
-}
-
-p {
-	font-size: 1.2rem;
-	line-height: 1.2rem;
-	padding: 1rem 0;
+p, ul, ol, pre, table, blockquote {
+	padding-top: 0rem;
+	padding-bottom: 2.3rem;
 }
 
 ul ul, ol ol, ul ol, ol ul {
