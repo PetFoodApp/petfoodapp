@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PetFoodApp</title>
 	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="skanowanie.css">
+	<link rel="stylesheet" href="../css/_camera-help.css">
 </head>
 <body>
 	<header class="flex-container">
-		<a class="back flex-item" href="#"><img src="../assets/svg/back.svg" alt="">Cofnij</a>
+		<a class="back flex-item" onclick="back()" href="#"><img src="../assets/svg/back.svg" alt="">Cofnij</a>
 		<h2 class="flex-item">Skanowanie</h2>
 		<div class="user-menu">
 			<a href="#"><img src="../assets/svg/avatar.svg" alt=""></a>
@@ -18,22 +18,22 @@
 	</header>
 	<main>
 		<div>
-			<div class="focus-first focus"></div>
-			<div class="focus-second focus"></div>
-			<p>+</p>
+			<div class="focus-first focus blur"></div>
+			<div class="focus-second focus blur"></div>
+			<p class="focus-plus blur">+</p>
+			<p class="info">Ustaw produkt na środku ekranu</p>
 			<section class="">
-				<a class="question flex-item" href="skanowanie-podpowiedz.html"></a>
-				<a class="flash flex-item" href="#"></a>
+				<a class="btn-primary btn" href="camera-set-product.html">ok</a>
 			</section>
 		</div>
 	</main>
 	<footer class="flex-container">
-		<a class="flex-item" href="#"><img src="../assets/svg/search.svg" alt=""></a>
+		<a class="flex-item" href="application-search.html"><img src="../assets/svg/search.svg" alt=""></a>
 		<div class="photo flex-item">
-			<a href="skanowanie-produkt.html"><img src="../assets/svg/photo-camera.svg" alt=""></a>
+			<a href="camera-set-product.html"><img src="../assets/svg/photo-camera.svg" alt=""></a>
 		</div>
 		<a class="flex-item" href="#"><img src="../assets/svg/pets.svg" alt=""></a>
 	</footer>
-	
+	<script src="../js/script.js"></script>
 </body>
 </html>
