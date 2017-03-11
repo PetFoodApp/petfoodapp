@@ -8,13 +8,13 @@
     margin-bottom: 3rem;
 }
 
-ul {
+.pick-category ul {
     padding-bottom: 0;
     width: 90%;
     margin: 0 auto;
 }
 
-ul li {
+.pick-category ul li {
     text-align: center;
     display: inline-block;
     width: 23%;
