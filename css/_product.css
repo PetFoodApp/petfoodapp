@@ -86,6 +86,32 @@
   margin-bottom: 3rem;
 }
 
+.product-title {
+  margin-bottom: 2rem;
+}
+
+.product-title h3 {
+  text-decoration: underline;
+}
+
+.product-description h2 {
+  margin-bottom: 1rem;
+}
+
+.product-description p, .product-description ul {
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+  padding-bottom: .5rem;
+}
+
+.product-description ul {
+  padding-left: 1.5rem;
+}
+
+.product-description ul li {
+  list-style: disc;
+}
+
 .product-manufacturer {
   display: inline-block;
   font-size: 1rem;
