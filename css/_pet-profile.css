@@ -1,0 +1,99 @@
+.pet-profile {
+  padding-bottom: 10rem;
+  width: 90%;
+  margin: 0 auto
+}
+
+.pet-profile input {
+  margin-bottom: .9rem; 
+  width: 100%
+}
+
+.pet-profile .btn-primary {
+  margin: 2rem auto;
+}
+
+.pet-profile h3 {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.pet-profile-personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.pet-gender, .pet-disease {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pet-disease {
+  margin-bottom: 1rem;
+}
+
+.pet-disease input {
+  width: 70%;
+  display: block;
+  margin: 0;
+}
+
+.pet-profile-personal .h3 {
+  display: inline-block;
+  line-height: 4rem;
+  vertical-align: center;
+}
+
+.pet-profile-personal .pet-personal-data {
+  display: inline-block;
+  min-width: 50%;
+  margin: 1%;
+}
+
+.btn-circle {
+  line-height: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  margin: 0;
+}
+
+.btn-circle svg {
+  height: 2rem;
+  display: block;
+  margin: auto;
+}
+
+.btn-gender {
+  background: #FFF;
+}
+
+.btn-gender svg {
+  fill: #BF360C;
+}
+
+.btn-gender.btn-active {
+  background: #BF360C;
+}
+
+.btn-gender.btn-active svg {
+  fill: #FDD734;
+}
+
+.btn-confirm {
+ background: #8BC34A;
+}
+
+.btn-delete {
+  background: #BF360C;
+}
+
+.btn-confirm svg, .btn-delete svg {
+  fill: #FFF;
+}
