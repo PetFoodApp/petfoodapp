@@ -1,13 +1,13 @@
 main {
 	margin: 0 auto;
 	position: relative;
-	height: 700px;
-	width: 90%;
+	height: 495px;
+	width: 94%;
 }
 main{
-	border-radius: 120px 120px 120px 120px;
-	-moz-border-radius: 120px 120px 120px 120px;
-	-webkit-border-radius: 120px 120px 120px 120px;
+	border-radius: 20%;
+	-moz-border-radius: 20%;
+	-webkit-border-radius: 20%;
 	border: 0px solid #000000;
 	background: black;
 }
@@ -15,22 +15,22 @@ main section .flex-item{
 	display: inline-block;
 	border-radius: 50%;
 	background-color: white;
-	height: 6rem;
-	width: 6rem;
+	height: 4.5rem;
+    width: 4.5rem;
 }
 
 .question{
-	background: white url('../assets/svg/question.svg') center no-repeat / 4rem;
+	background: white url('../assets/svg/question.svg') center no-repeat / 2.5rem;
 	position: absolute;
-	bottom: 8rem;
-	left: 1.5rem;
+    left: 3.5rem;
+    bottom: 3rem;
 
 }
 .flash{
-	background: white url('../assets/svg/flash.svg') center no-repeat / 4rem;
+	background: white url('../assets/svg/flash.svg') center no-repeat / 2.5rem;
 	position: absolute;
-	right: 1.5rem;
-	bottom: 8rem;
+    right: 3.5rem;
+    bottom: 3rem;
 }
 
 main .focus {
@@ -57,14 +57,14 @@ main .focus-plus{
 	color: #fdd835;
 	font-size: 2.8rem;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+    top: 45%;
+    left: 49%;
 }
 
 main .btn{
 	width: 30%;
 	position: absolute;
-	bottom: 7rem;
+	bottom: 4rem;
 	left: 35%;
 }
 
@@ -75,13 +75,13 @@ main .info {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 3rem;
-	padding-top: 20%;
+	padding-top: 30%;
 }
 
 main .blur{
 	-webkit-filter: blur(2px);
--moz-filter: blur(2px);
--o-filter: blur(2px);
--ms-filter: blur(2px);
-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
 }

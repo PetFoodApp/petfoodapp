@@ -1,8 +1,8 @@
 main {
 	margin: 0 auto;
 	position: relative;
-	height: 700px;
-	width: 90%;
+    height: 452px;
+    width: 90%;
 }
 main{
 background: black url('../assets/images/product.jpg') center center no-repeat;
@@ -12,22 +12,8 @@ main section .flex-item{
 	display: inline-block;
 	border-radius: 50%;
 	background-color: white;
-	height: 6rem;
-	width: 6rem;
-}
-
-.question{
-	background: white url('../assets/svg/question.svg') center no-repeat / 4rem;
-	position: absolute;
-	bottom: 8rem;
-	left: 1.5rem;
-
-}
-.flash{
-	background: white url('../assets/svg/flash.svg') center no-repeat / 4rem;
-	position: absolute;
-	right: 1.5rem;
-	bottom: 8rem;
+	height: 4.5rem;
+    width: 4.5rem;
 }
 
 main .focus {
