@@ -1,60 +1,9 @@
-main {
-	margin: 0 auto;
-	position: relative;
-	height: 495px;
-	width: 94%;
-}
-main{
-	border-radius: 20%;
-	-moz-border-radius: 20%;
-	-webkit-border-radius: 20%;
-	border: 0px solid #000000;
+.camera-set-product{
 	background: black url('../assets/images/product.jpg') center center no-repeat;
     background-size: contain;
 }
-main section .flex-item{
-	display: inline-block;
-	border-radius: 50%;
-	background-color: white;
-	height: 4.5rem;
-    width: 4.5rem;
-}
 
-.question{
-	background: white url('../assets/svg/question.svg') center no-repeat / 2.5rem;
-	position: absolute;
-    left: 3.5rem;
-    bottom: 3rem;
-
-}
-.flash{
-	background: white url('../assets/svg/flash.svg') center no-repeat / 2.5rem;
-	position: absolute;
-    right: 3.5rem;
-    bottom: 3rem;
-}
-
-main .focus {
-	border: 2px dashed #fdd835;
-}
-
-main .focus-first {
-	width: 80%;
-	height: 30%;
-	position: absolute;
-	top: 35%;
-	left: 10%;
-}
-
-main .focus-second {
-	width: 30%;
-	height: 80%;
-	position: absolute;
-	top: 10%;
-	left: 35%;
-}
-
-main p{
+.camera-set-product p{
 	color: #fdd835;
 	font-size: 2.8rem;
 	position: absolute;

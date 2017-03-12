@@ -1,17 +1,15 @@
-main {
+.camera {
 	margin: 0 auto;
 	position: relative;
 	height: 495px;
 	width: 94%;
-}
-main{
 	border-radius: 20%;
 	-moz-border-radius: 20%;
 	-webkit-border-radius: 20%;
 	border: 0px solid #000000;
 	background: black;
 }
-main section .flex-item{
+.camera section .flex-item{
 	display: inline-block;
 	border-radius: 50%;
 	background-color: white;
@@ -19,25 +17,25 @@ main section .flex-item{
     width: 4.5rem;
 }
 
-.question{
+.camera .question{
 	background: white url('../assets/svg/question.svg') center no-repeat / 2.5rem;
 	position: absolute;
     left: 3.5rem;
     bottom: 3rem;
 
 }
-.flash{
+.camera .flash{
 	background: white url('../assets/svg/flash.svg') center no-repeat / 2.5rem;
 	position: absolute;
     right: 3.5rem;
     bottom: 3rem;
 }
 
-main .focus {
+.camera .focus {
 	border: 2px dashed #fdd835;
 }
 
-main .focus-first {
+.camera .focus-first {
 	width: 80%;
 	height: 30%;
 	position: absolute;
@@ -45,7 +43,7 @@ main .focus-first {
 	left: 10%;
 }
 
-main .focus-second {
+.camera .focus-second {
 	width: 30%;
 	height: 80%;
 	position: absolute;
@@ -53,7 +51,7 @@ main .focus-second {
 	left: 35%;
 }
 
-main .focus-plus{
+.camera-help .focus-plus{
 	color: #fdd835;
 	font-size: 2.8rem;
 	position: absolute;
@@ -61,14 +59,14 @@ main .focus-plus{
     left: 49%;
 }
 
-main .btn{
+.camera-help .btn{
 	width: 30%;
 	position: absolute;
 	bottom: 4rem;
 	left: 35%;
 }
 
-main .info {
+.camera-help .info {
 	color:  #ffffff;
 	font-size: 3rem;
 	font-weight: 700;
@@ -78,7 +76,7 @@ main .info {
 	padding-top: 30%;
 }
 
-main .blur{
+.camera-help .blur{
 	-webkit-filter: blur(2px);
 	-moz-filter: blur(2px);
 	-o-filter: blur(2px);

@@ -1,9 +1,21 @@
 header img, footer img{
 	height: 2.5rem;
 }
+body{
+	padding-top: 8.7rem;
+}
 /*menu top*/
 header{
-	margin: 3rem 0;
+
+	background-color: #FDD734;
+	padding: 2rem 0;
+}
+
+.fix{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
 }
 .back{
     margin-left: 1.5rem;
