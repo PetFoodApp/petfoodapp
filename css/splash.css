@@ -1,3 +1,7 @@
+body.splash-page {
+  padding-top: 0;
+}
+
 .splash-image {
   position: absolute;
   bottom: 0;
