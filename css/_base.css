@@ -37,6 +37,8 @@ h3, .h3 {
   text-align: center;
 }
 
+.heading-line h2,
+.heading-line .h2,
 .heading-line h3,
 .heading-line .h3 {
   position: relative;
@@ -44,6 +46,10 @@ h3, .h3 {
   display: inline-block;
 }
 
+.heading-line h2::before,
+.heading-line h2::after,
+.heading-line .h2::before,
+.heading-line .h2::after,
 .heading-line h3::before,
 .heading-line h3::after,
 .heading-line .h3::before,
@@ -57,10 +63,14 @@ h3, .h3 {
   top: 50%;
 }
 
+.heading-line h2::before,
+.heading-line .h2::before,
 .heading-line h3::before,
 .heading-line .h3::before {
   right: 100%;
 }
+.heading-line h2::after,
+.heading-line .h2::after,
 .heading-line h3::after, 
 .heading-line .h3::after {
   left: 100%;

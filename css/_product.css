@@ -100,11 +100,17 @@
   text-decoration: underline;
 }
 
-.product-description h2 {
-  margin-bottom: 1rem;
+.product-description h2,
+.product-ingridients h2 {
+  margin: 1rem 0;
 }
 
-.product-description p, .product-description ul {
+.product-description p, 
+.product-description ul,
+.product-ingridients dl,
+.product-ingridients dt,
+.product-ingridients dd,
+.product-feedback p {
 	font-size: 1.2rem;
 	line-height: 1.6rem;
   padding-bottom: .5rem;
@@ -123,6 +129,19 @@
   font-size: 1rem;
   line-height: 1.2rem;
   font-weight: 500;
+}
+
+.product-ingridients dt {
+  font-style: italic;
+}
+
+.product-feedback {
+  margin: 1rem 0;
+}
+
+.product-feedback-user, 
+.product-feedback .product-rating-stars {
+  margin: .5rem 0;
 }
 
 @media (min-device-pixel-ratio: 2) {
