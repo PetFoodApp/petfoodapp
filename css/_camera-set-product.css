@@ -6,7 +6,7 @@
 .camera-set-product p{
 	color: #fdd835;
 	font-size: 2.8rem;
-	position: absolute;
-    top: 45%;
-    left: 49%;
+	position: absolute; width: 100%; top: 50%; transform: translateY(-50%);
+	padding: 0;
+	text-align: center;
 }
